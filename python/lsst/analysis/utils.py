@@ -1,7 +1,7 @@
 from __future__ import annotations
 import numpy as np
 
-__all__ = ["nanojanskyToABMagnitude"]
+__all__ = ['nanojanskyToABMagnitude']
 
 
 def nanojanskyToABMagnitude(flux) -> int:
@@ -30,4 +30,3 @@ def nanojanskyToABMagnitude(flux) -> int:
         )
     referenceFlux = 1e23 * np.power(10, (48.6 / -2.5)) * 1e9
     return -2.5 * np.log10(flux / referenceFlux)
-
