@@ -1,2 +1,2 @@
-# lsst_performance_analysis
-Code for the analysis of LSST performance
+# lsst-analysis
+Code for the analysis of LSST data
