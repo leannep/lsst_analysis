@@ -8,8 +8,7 @@ Notebooks
 =========
 
 Analysis notebooks are be stored in the notebooks directory.
-Notebooks are organized by where they are run and by analysis context, e.g ComCam, DP0, etc
-or by type, e/g Visualization
+Notebooks are organized by where they are run, e.g USDF, IDF or by analysis context, e.g  ComCam, DP0
 
 Python
 =======
